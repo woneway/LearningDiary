@@ -33,7 +33,7 @@ git clone git@github.com:username/projectname.git
 ## 首次上传到远程仓库
 origin是远程仓库地址，第一个master是本地仓库分支，第二个master是远程仓库分支
 ```
-git push origin master master
+git push origin master:master
 ```
 
 ## gitbash 展示中文为乱码
