@@ -35,6 +35,15 @@ origin是远程仓库地址，第一个master是本地仓库分支，第二个ma
 ```
 git push origin master:master
 ```
+例如将本地master分支提交到远程仓库分支slave上，若slave不存在，则会新建一个slave分支
+```
+git push origin master:slave
+```
+
+## 删除远程分支
+```
+git push origin --delete ${deletebranchname}
+```
 
 ## gitbash 展示中文为乱码
 ```
